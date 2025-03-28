@@ -167,7 +167,578 @@ body {
     left: 74%;
     width: 25%;
 }
-.draggable {
-    cursor: grab;
-    position: absolute;
+.dragg:active {
+    cursor: grabbing;
 }
+.third-section{
+    display: flex;
+    width: 100%;
+    height: 55vw;
+    justify-content: center;
+    align-items: center;
+}
+.send-7 {
+    position: absolute;
+    z-index: 1;
+    top: 113vw;
+    left: 0.5%;
+    width: 34%;
+}
+.send-8 {
+    position: absolute;
+    z-index: 1;
+    top: 124vw;
+    left: 12%;
+    width: 30%;
+}
+.send-9 {
+    position: absolute;
+    z-index: 1;
+    top: 143vw;
+    left: 7%;
+    width: 25%;
+}
+.send-10 {
+    position: absolute;
+    z-index: 1;
+    top: 130vw;
+    left: 40%;
+    width: 30%;
+}
+.send-11 {
+    position: absolute;
+    z-index: 1;
+    top: 117vw;
+    left: 65%;
+    width: 30%;
+}
+.send-12 {
+    position: absolute;
+    z-index: 1;
+    top: 146vw;
+    left: 63%;
+    width: 30%;
+}
+.album {
+    position: absolute;
+    z-index: 3;
+    top: 144vw;
+    left: 12%;
+    width: 23.5%;
+}
+.kinder {
+    position: absolute;
+    z-index: 1;
+    top: 145vw;
+    left: 6%;
+    width: 8%;
+}
+.ticket {
+    position: absolute;
+    z-index: 1;
+    top: 142vw;
+    left: 2%;
+    width: 10%;
+}
+.plenka-2 {
+    position: absolute;
+    z-index: 4;
+    top: 118vw;
+    left: 56%;
+    width: 19%;
+}
+.plenka-3 {
+    position: absolute;
+    z-index: 4;
+    top: 134vw;
+    left: 3%;
+    width: 45%;
+}
+.young {
+    position: absolute;
+    z-index: 3;
+    top: 115.5vw;
+    left: 2%;
+    width: 32%;
+}
+.brat {
+    position: absolute;
+    z-index: 4;
+    top: 120vw;
+    left: 22%;
+    width: 37%;
+}
+.party {
+    position: absolute;
+    z-index: 1;
+    top: 121vw;
+    left: 33%;
+    width: 26%;
+}
+.hse {
+    position: absolute;
+    z-index: 4;
+    top: 126vw;
+    left: 53%;
+    width: 6%;
+}
+.snow {
+    position: absolute;
+    z-index: 2;
+    top: 148vw;
+    left: 33%;
+    width: 17%;
+}
+.sea {
+    position: absolute;
+    z-index: 3;
+    top: 141vw;
+    left: 50%;
+    width: 10%;
+}
+.kiss {
+    position: absolute;
+    z-index: 5;
+    top: 150vw;
+    left: 52%;
+    width: 21%;
+}
+.vdnh {
+    position: absolute;
+    z-index: 1;
+    top: 150.5vw;
+    left: 64.5%;
+    width: 18%;
+}
+.heart {
+    position: absolute;
+    z-index: 2;
+    top: 140vw;
+    left: 75%;
+    width: 25%;
+}
+.girls {
+    position: absolute;
+    z-index: 1;
+    top: 132vw;
+    left: 73.5%;
+    width: 23%;
+}
+.eyes {
+    position: absolute;
+    z-index: 1;
+    top: 120vw;
+    left: 73.5%;
+    width: 23%;
+}
+.love {
+    position: absolute;
+    z-index: 4;
+    top: 139vw;
+    left: 68%;
+    width: 15%;
+}
+.bow {
+    position: absolute;
+    z-index: 5;
+    top: 130vw;
+    left: 68.5%;
+    width: 18%;
+}
+
+.fourth-section {
+    display: flex;
+    width: 100%;
+    height: 55vw;
+    justify-content: center;
+    align-items: center;
+}
+.send-13 {
+    position: absolute;
+    z-index: 1;
+    top: 170vw;
+    left: 1%;
+    width: 30%;
+}
+.send-14 {
+    position: absolute;
+    z-index: 1;
+    top: 188vw;
+    left: 14%;
+    width: 30%;
+}
+.send-15 {
+    position: absolute;
+    z-index: 1;
+    top: 176vw;
+    left: 35%;
+    width: 30%;
+}
+.send-16 {
+    position: absolute;
+    z-index: 1;
+    top: 206.5vw;
+    left: 32%;
+    width: 25%;
+}
+.send-17 {
+    position: absolute;
+    z-index: 1;
+    top: 189vw;
+    left: 67%;
+    width: 32%;
+}
+.send-18 {
+    position: absolute;
+    z-index: 1;
+    top: 202vw;
+    left: 70%;
+    width: 29%;
+}
+.wedding-1 {
+    position: absolute;
+    z-index: 3;
+    top: 170.5vw;
+    left: 3%;
+    width: 15%;
+}
+.plenka-4 {
+    position: absolute;
+    z-index: 4;
+    top: 184vw;
+    left: 5%;
+    width: 15%;
+}
+.father {
+    position: absolute;
+    z-index: 2;
+    top: 174vw;
+    left: 15%;
+    width: 23%;
+}
+.wedding {
+    position: absolute;
+    z-index: 1;
+    top: 193.6vw;
+    left: 37%;
+    width: 18%;
+}
+.rings {
+    position: absolute;
+    z-index: 2;
+    top: 172vw;
+    left: 40.5%;
+    width: 17%;
+}
+.family {
+    position: absolute;
+    z-index: 2;
+    top: 202vw;
+    left: 81.5%;
+    width: 17%;
+}
+.hand {
+    position: absolute;
+    z-index: 2;
+    top: 180vw;
+    left: 44.5%;
+    width: 15%;
+}
+.mother-1 {
+    position: absolute;
+    z-index: 2;
+    top: 200vw;
+    left: 51.5%;
+    width: 16%;
+}
+.sleep {
+    position: absolute;
+    z-index: 2;
+    top: 176vw;
+    left: 74.8%;
+    width: 22%;
+}
+.mother {
+    position: absolute;
+    z-index: 2;
+    top: 189vw;
+    left: 80.8%;
+    width: 16%;
+}
+.father-2 {
+    position: absolute;
+    z-index: 1;
+    top: 178vw;
+    left: 27.8%;
+    width: 25%;
+}
+.uzi {
+    position: absolute;
+    z-index: 5;
+    top: 188vw;
+    left: 25.8%;
+    width: 17%;
+}
+.family-2 {
+    position: absolute;
+    z-index: 1;
+    top: 202vw;
+    left: 55.8%;
+    width: 30%;
+}
+.mother-3 {
+    position: absolute;
+    z-index: 1;
+    top: 190vw;
+    left: 55.8%;
+    width: 30%;
+}
+.shoes {
+    position: absolute;
+    z-index: 1;
+    top: 212vw;
+    left: 40.8%;
+    width: 15%;
+}
+.hand-1 {
+    position: absolute;
+    z-index: 6;
+    top: 171.5vw;
+    left: 55.8%;
+    width: 24%;
+}
+.leg {
+    position: absolute;
+    z-index: 6;
+    top: 201vw;
+    left: 15.8%;
+    width: 24%;
+}
+
+.fifth-section {
+    display: flex;
+    width: 100%;
+    height: 55vw;
+    justify-content: center;
+    align-items: center;
+}
+.send-19 {
+    position: absolute;
+    z-index: 1;
+    top: 227vw;
+    left: 2%;
+    width: 29%;
+}
+.send-20 {
+    position: absolute;
+    z-index: 1;
+    top: 227vw;
+    left: 27%;
+    width: 28%;
+}
+.send-21 {
+    position: absolute;
+    z-index: 1;
+    top: 230vw;
+    left: 63%;
+    width: 37%;
+}
+.send-22 {
+    position: absolute;
+    z-index: 1;
+    top: 240vw;
+    left: 3%;
+    width: 47%;
+}
+.send-23 {
+    position: absolute;
+    z-index: 1;
+    top: 255vw;
+    left: 25%;
+    width: 44%;
+}
+.send-24 {
+    position: absolute;
+    z-index: 1;
+    top: 259vw;
+    left: 64%;
+    width: 34%;
+}
+.grandparents1 {
+    position: absolute;
+    z-index: 2;
+    top: 229vw;
+    left: 2%;
+    width: 22%;
+}
+.grandparents2 {
+    position: absolute;
+    z-index: 2;
+    top: 229vw;
+    left: 27%;
+    width: 22%;
+}
+.grandparents3 {
+    position: absolute;
+    z-index: 1;
+    top: 259vw;
+    left: 34%;
+    width: 22%;
+}
+.grandparents4 {
+    position: absolute;
+    z-index: 1;
+    top: 244vw;
+    left: 6%;
+    width: 25%;
+}
+.grandparents5 {
+    position: absolute;
+    z-index: 1;
+    top: 236vw;
+    left: 56%;
+    width: 30%;
+}
+.grandparents6 {
+    position: absolute;
+    z-index: 1;
+    top: 260vw;
+    left: 2%;
+    width: 16%;
+}
+.ticket2 {
+    position: absolute;
+    z-index: 3;
+    top: 230vw;
+    left: 42%;
+    width: 28%;
+}
+.ticket3 {
+    position: absolute;
+    z-index: 3;
+    top: 262.5vw;
+    left: 42%;
+    width: 24%;
+}
+.flower1 {
+    position: absolute;
+    z-index: 3;
+    top: 250vw;
+    left: 14%;
+    width: 35%;
+}
+.flower2 {
+    position: absolute;
+    z-index: 3;
+    top: 238vw;
+    left: 34%;
+    width: 35%;
+}
+.plenka-5 {
+    position: absolute;
+    z-index: 3;
+    top: 231.5vw;
+    left: 64%;
+    width: 35%;
+}
+.rings2 {
+    position: absolute;
+    z-index: 3;
+    top: 262vw;
+    left: 77%;
+    width: 18%;
+}
+.grandfather {
+    position: absolute;
+    z-index: 3;
+    top: 245vw;
+    left: 83%;
+    width: 14%;
+}
+.bow2 {
+    position: absolute;
+    z-index: 5;
+    top: 247vw;
+    left: 1%;
+    width: 24%;
+}
+.sixth-section {
+    display: flex;
+    width: 100%;
+    height: 60vw;
+    justify-content: center;
+    align-items: center;
+}
+.postcard1 {
+    position: absolute;
+    z-index: 2;
+    top: 283vw;
+    left: 1%;
+    width: 27%;
+}
+.postcard2 {
+    position: absolute;
+    z-index: 1;
+    top: 283vw;
+    left: 27%;
+    width: 20%;
+}
+.postcard3 {
+    position: absolute;
+    z-index: 3;
+    top: 289vw;
+    left: 44%;
+    width: 17%;
+}
+.postcard4 {
+    position: absolute;
+    z-index: 3;
+    top: 284vw;
+    left: 62%;
+    width: 22%;
+}
+.postcard5 {
+    position: absolute;
+    z-index: 3;
+    top: 315vw;
+    left: 1%;
+    width: 22%;
+}
+.postcard6 {
+    position: absolute;
+    z-index: 3;
+    top: 307vw;
+    left: 20%;
+    width: 12%;
+}
+.postcard7 {
+    position: absolute;
+    z-index: 3;
+    top: 316vw;
+    left: 29%;
+    width: 21%;
+}
+.postcard8 {
+    position: absolute;
+    z-index: 3;
+    top: 319vw;
+    left: 52%;
+    width: 33%;
+}
+.postcard9 {
+    position: absolute;
+    z-index: 3;
+    top: 313vw;
+    left: 80%;
+    width: 17%;
+}
+.send-25 {
+    position: absolute;
+    z-index: 3;
+    top: 291vw;
+    left: 84%;
+    width: 15%;
+}
+
+
+
