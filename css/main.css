@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightslategray;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-section {
+    display: flex;
+    width: 85%;
+    height: 55vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/box1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+.second-section {
+    display: flex;
+    width: 100%;
+    height: 57vw;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.send-1 {
+    position: absolute;
+    z-index: 1;
+    top: 59vw;
+    left: 1.4%;
+    width: 28%;
+}
+.send-2 {
+    position: absolute;
+    z-index: 1;
+    top: 60.4vw;
+    left: 73.5%;
+    width: 25%;
+}
+.send-3 {
+    position: absolute;
+    z-index: 1;
+    top: 72vw;
+    left: 20%;
+    width: 25%;
+    transform: rotate(-6deg);
+}
+.send-4 {
+    position: absolute;
+    z-index: 1;
+    top: 95vw;
+    left: 10%;
+    width: 40%;
+    transform: rotate(-3,78deg);
+}
+.send-5 {
+    position: absolute;
+    z-index: 1;
+    top: 90vw;
+    left: 68%;
+    width: 30%;
+    transform: rotate(-3,78deg);
+}
+.send-6 {
+    position: absolute;
+    z-index: 1;
+    top: 100vw;
+    left: 52%;
+    width: 20%;
+    transform: rotate(10,19deg);
+}
+.child {
+    position: absolute;
+    z-index: 3;
+    top: 61vw;
+    left: 3%;
+    width: 33%;
+}
+.childrens {
+    position: absolute;
+    z-index: 3;
+    top: 61vw;
+    left: 58%;
+    width: 40%;
+}
+.child-2 {
+    position: absolute;
+    z-index: 2;
+    top: 80vw;
+    left: 15%;
+    width: 33%;
+}
+.rain {
+    position: absolute;
+    z-index: 2;
+    top: 83.5vw;
+    left: 50.6%;
+    width: 33%;
+}
+.toys {
+    position: absolute;
+    z-index: 3;
+    top: 80vw;
+    left: 70%;
+    width: 25%;
+}
+.plenka {
+    position: absolute;
+    z-index: 4;
+    top: 60vw;
+    left: 35%;
+    width: 19%;
+}
+.sticker-1 {
+    position: absolute;
+    z-index: 4;
+    top: 78vw;
+    left: 1.4%;
+    width: 9%;
+}
+.sticker-2 {
+    position: absolute;
+    z-index: 4;
+    top: 61vw;
+    left: 55%;
+    width: 6.5%;
+}
+.sticker-3 {
+    position: absolute;
+    z-index: 4;
+    top: 78vw;
+    left: 90%;
+    width: 8.5%;
+}
+.sticker-4 {
+    position: absolute;
+    z-index: 4;
+    top: 99vw;
+    left: 35%;
+    width: 14%;
+}
+.chocholate {
+    position: absolute;
+    z-index: 4;
+    top: 90vw;
+    left: 4.2%;
+    width: 20%;
+}
+.letter {
+    position: absolute;
+    z-index: 4;
+    top: 79.8vw;
+    left: 45%;
+    width: 22%;
+}
+.disk {
+    position: absolute;
+    z-index: 4;
+    top: 89vw;
+    left: 74%;
+    width: 25%;
+}
+.draggable {
+    cursor: grab;
+    position: absolute;
+}
